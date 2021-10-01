@@ -1,5 +1,5 @@
 :root {
-  --textColor: #143d59;
+  --textColor: white;
   --backgroundColor: #f4b41a;
   --headerColor: #161b21;
 }
@@ -22,8 +22,9 @@ section {
   flex-wrap: wrap;
 }
 
+/* the lines next to sections */
 section h2 {
-  text-align: right;
+  text-align: left;
   padding-right: 5px;
   border-right: solid 3px;
 }
@@ -68,18 +69,8 @@ a {
   color: var(--textColor);
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-.contact-info {
-  text-align: center;
-  flex: 1;
-}
-
 #about-me div {
-  padding-left: 15px;
+  margin-left: 15px;
 }
 
 .absolute-container {
@@ -101,11 +92,29 @@ a {
   height: 100%;
 }
 
-#work1 {
+#workText {
   width: 100px;
-  height: 50px;
+  height: 40px;
   background-color: var(--headerColor);
-  text-align: center;
+  text-align: left;
   position: relative;
-  top: 100px;
+  top: 130px;
+  padding-left: 6px;
+}
+
+#workText p {
+  font-size: 13px;
+}
+
+.contact-box {
+  width: 200px;
+  height: 80px;
+}
+
+#contactText {
+  border-bottom: solid 5px;
+  width: fit-content;
+  position: relative;
+  top: 30%;
+  left: 25%;
 }
