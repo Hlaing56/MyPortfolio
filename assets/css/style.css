@@ -24,7 +24,7 @@ section {
 
 /* the lines next to sections */
 section h2 {
-  text-align: left;
+  text-align: right;
   padding-right: 5px;
   border-right: solid 3px;
 }
