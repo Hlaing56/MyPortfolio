@@ -1,8 +1,8 @@
 :root {
-  --textColor: #e0c097;
-  --backgroundColor: #2d2424;
-  --headerColor: #5c3d2e;
-  --header: #b85c38;
+  --textColor: #8888;
+  --backgroundColor: #e2e4e7;
+  --headerColor: #d9b584;
+  --header: #faeadb;
 }
 
 * {
@@ -54,8 +54,8 @@ header nav ul li a {
 }
 
 .hero {
-  background-image: url("../images/hero.jpg");
-  background-size: cover;
+  background-image: url("../images/grey.png");
+  background-size: auto;
   background-position: center;
   display: flex;
   justify-content: center;
@@ -142,10 +142,24 @@ a {
   position: relative;
   top: 30%;
   left: 25%;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 1150px) {
   section {
     flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
+
+  section h2 {
+    text-align: center;
+    border-right: none;
+  }
+
+  .bigBoy {
+    justify-content: center;
   }
 }
