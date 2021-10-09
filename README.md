@@ -3,6 +3,7 @@ This week, I build a portfolio page, which I can add to as the course progresses
 
 ![Image of website](https://user-images.githubusercontent.com/90152576/136644128-6021c927-91c5-4e28-a695-c30d8b03db9a.png)
 ![Image of website](https://user-images.githubusercontent.com/90152576/136644153-6cb91134-40c2-4c8a-9238-b3aa25ad1050.png)
+https://hlaing56.github.io/MyPortfolio/
 
 ## Acceptance Criteria
 ```
